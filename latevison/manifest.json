@@ -1,0 +1,35 @@
+{
+
+  "manifest_version": 2,
+  "name": "LateVision",
+  "version": "1.0",
+
+  "description": "Reduces blue light in webpages to have a healthier browsing experience.",
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "icons": {
+    "16": "icons/idea-light-bulb-png-16px.png",
+    "32": "icons/idea-light-bulb-png-32px.png",
+    "48": "icons/idea-light-bulb-png-48px.png",
+    "96": "icons/idea-light-bulb-png-96px.png"
+  },
+
+  "browser_action": {
+    "default_icon": {
+      "16": "icons/idea-light-bulb-png-16px.png",
+      "32": "icons/idea-light-bulb-png-32px.png",
+      "48": "icons/idea-light-bulb-png-48px.png",
+      "96": "icons/idea-light-bulb-png-96px.png"
+    }
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.eneskirimi.com/*"],
+      "js": ["content_scripts/latevison.js"]
+    }
+  ]
+}
