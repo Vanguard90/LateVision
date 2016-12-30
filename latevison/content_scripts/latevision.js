@@ -1,3 +1,15 @@
+
+window.onload = colorChange;
+
+function colorChange () {
+
+const body = document.querySelector("body");
+
+body.style = "background: rgba(247,230,213,0.3) !important ";
+
+};
+
+/*
 let colorStyle = document.getElementById("latevision-style");
 let modal = document.getElementById("latevison-modal");
 let head = document.documentElement || document.head || document.querySelector("head");
@@ -35,3 +47,5 @@ if (!colorStyle) {
         '  background: rgb(247,230,213,0.3) !important;' + 
         '}';
   };
+
+  */

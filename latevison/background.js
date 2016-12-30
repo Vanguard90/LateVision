@@ -1,7 +1,4 @@
-function openPage() {
-  browser.tabs.create({
-    url: "https://developer.mozilla.org"
-  });
-}
 
-browser.browserAction.onClicked.addListener(openPage);
+const body = document.querySelector("body");
+
+document.onload.body.style = "background-color: rgba(247,230,213,0.3) !important ";
