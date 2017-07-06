@@ -1,2 +1,10 @@
-# LateVision
-A Firefox extention that reduces blue light in webpages to have a healthier browsing experience at night.
+#LateVision
+
+A firefox extension that enables people to adjust blue light levels on their browser.
+
+---
+
+Currently in **development hell**.
+
+
+![idea-light-bulb-png-96px.png](.\latevison\icons\idea-light-bulb-png-96px.png)
